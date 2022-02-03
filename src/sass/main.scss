@@ -1,0 +1,52 @@
+/*
+ * Главный файл стилей.
+ * Все паршалы подключаются сюда.
+ */
+
+@import './utils/variables';
+@import './utils/hidden';
+@import './base/reset';
+@import './base/typographia';
+@import './components/common/container';
+@import './components/common/button';
+@import './components/common/close-button';
+
+// Hero header import start
+@import './components/header+hero/header';
+@import './components/header+hero/header-nav';
+@import './components/header+hero/header-burger';
+@import './components/header+hero/header-button';
+@import './components/header+hero/hero';
+@import './components/header+hero/hero-title';
+@import './components/header+hero/hero-buttons';
+@import './components/header+hero/hero-content';
+@import './components/header+hero/hero-modal';
+@import './components/header+hero/hero-images';
+@import './components/header+hero/menu';
+// Hero header import end
+// Products import start
+@import './components/products';
+// Products import end
+// About import start
+@import './components/about';
+// About import end
+// Advantages import start
+@import './components/advantages/advantages';
+// Advantages import end
+// Gallery import start
+@import './components/gallery';
+// Gallery import end
+// Customer Reviews import start
+@import './lib/slick-theme';
+@import './components/customer-reviews/slide';
+@import './components/customer-reviews/slider';
+// Customer Reviews import end
+// Contacts import start
+@import './components/contacts/button';
+@import './components/contacts/card';
+@import './components/contacts/modal';
+// Contacts import end
+// Footer import start
+@import './components/footer/footer';
+// Footer import end
+@import './lib/modal';
